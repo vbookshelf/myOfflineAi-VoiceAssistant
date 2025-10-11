@@ -10,3 +10,7 @@ https://pypi.org/project/openai-whisper/
 
 - kokoro-onnx<br>
 https://github.com/thewh1teagle/kokoro-onnx
+
+- Kokoro Local TTS + Custom Voices<br>
+Sam Witteveen<br>
+https://www.youtube.com/watch?v=tl1wvZXlj0I
