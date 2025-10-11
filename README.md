@@ -14,3 +14,6 @@ https://github.com/thewh1teagle/kokoro-onnx
 - Kokoro Local TTS + Custom Voices<br>
 Sam Witteveen<br>
 https://www.youtube.com/watch?v=tl1wvZXlj0I
+
+- hexgrad/Kokoro-82M<br>
+  https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
