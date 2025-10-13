@@ -1,5 +1,6 @@
 # myOfflineAi-VoiceAssistant
-A full-featured offline-first Ai voice assistant that uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama for the Large Language Model (LLM).
+
+A truly offline Ai voice assistant that uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama for the Large Language Model (LLM).
 
 [ Project in progress... ]
 
