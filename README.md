@@ -207,3 +207,27 @@ https://www.youtube.com/watch?v=tl1wvZXlj0I
 
 - hexgrad/Kokoro-82M<br>
   https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
+
+<br>
+
+## App Family - Offline-First, Privacy-First
+
+- myOfflineAi-PrivacyFirst<br>(Maximum security. No chat history is saved.)<br>
+  https://github.com/vbookshelf/myOfflineAi-PrivacyFirst<br>
+- myOfflineAi-ChatHistory<br>(Saves chats to a local file you control.)<br>
+  https://github.com/vbookshelf/myOfflineAi-ChatHistory<br>
+- Chat-Image-Marker<br>(A simple, offline tool for marking up images.)<br>
+  https://github.com/vbookshelf/Chat-Image-Marker<br>
+- myOfflineAi-VoiceAssistant<br>(An offline full-featured Ai voice assistant.)<br>
+  https://github.com/vbookshelf/myOfflineAi-VoiceAssistant
+
+
+<br>
+
+## Revision History
+
+Version 1.0<br>
+13-Oct-2025<br>
+Prototype. Released for testing and education.
+
+
