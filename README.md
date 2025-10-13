@@ -4,6 +4,13 @@
 
 <br>
 
+YouTube Video Demo<br>
+https://www.youtube.com/watch?v=rFboArOTe20<br>
+The demo is in real time.<br>
+Hardware: M4 Macbook Air, 16GB
+
+<br>
+
 A truly offline Ai voice assistant that uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama for the Large Language Model (LLM).
 
 This is a privacy-first desktop Ai voice assistant designed to provide transparent, auditable and fully offline AI access for self-employed professionals in regulated industries, researchers, teachers and students who need data privacy. The app has a full-featured, clean, intuitive interface with built-in support for text and voice input. It also supports image and pdf input. 
