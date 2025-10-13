@@ -16,6 +16,7 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 - Full featured - customize the system message, temperature, voice type etc. in the UI.
 - Supports text and voice input with text and voice output
 - Supports images and pdf files
+- For maximum privacy switch off your internet access and set Ollama to airplane mode
 - Free, open source, MIT License
 
 <br>
