@@ -983,7 +983,7 @@ HTML_TEMPLATE = """
                 </div>
                 <div class="collapsible-content" id="voice-settings-content">
                     <div class="sidebar-section" style="margin-top: 1rem;">
-                        <label for="tts-enabled-selector">Voice</label>
+                        <label for="tts-enabled-selector">Voice Output</label>
                         <select id="tts-enabled-selector" class="sidebar-select">
                             <option value="On">On</option>
                             <option value="Off">Off</option>
