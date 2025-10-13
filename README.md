@@ -20,6 +20,17 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 
 <br>
 
+<img src="images/image1.png" alt="App screenshot" height="500">
+<p>myOfflineAi App - Clean and modern interface</p>
+
+<br>
+
+<img src="images/image2.png" alt="App screenshot" height="500">
+<p>myOfflineAi App - Voice mode enabled</p>
+
+
+<br>
+
 ## How to Install and Run
 
 <br>
