@@ -14,7 +14,7 @@ This is a privacy-first desktop Ai voice assistant thats designed to provide tra
 - Single-file architecture - code is easy to audit because HTML, CSS, JS and Python are all in one file
 - Designed to be modified by Ai - to add new features and fix bugs. Sinply give the Ai the app.py file and tell it what changes you want made.
 - Supports text and voice input with text and voice output
-- Suports images and pdf files
+- Supports images and pdf files
 - Free, open source, MIT License
 
 <br>
