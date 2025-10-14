@@ -20,8 +20,8 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 - Runs on the desktop
 - Single-file architecture - code is easy to audit because HTML, CSS, JS and Python are all in one file
 - Easy to modify and audit using Ai. Simply give the Ai the app.py file and tell it what changes you want made or ask it to audit the code for privacy.
-- Full featured - customize the system message, temperature, voice type etc. in the UI.
-- Supports text and voice input with text and voice output
+- Full featured - customize the system message, temperature, voice type and other settings.
+- Supports text and voice input, and text and voice output
 - Supports images and pdf files (drag and drop)
 - For maximum privacy switch off your internet access and set Ollama to airplane mode
 
