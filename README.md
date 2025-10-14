@@ -214,7 +214,7 @@ Quick Troubleshooting
 ## Notes
 
 - The latency (speed) will depend on your computer, the model size and the size of the context. I found that Gemma3:4b and Gemma3:12b give a good balance of speed and intelligence. They also support image input. The biggest factor is the Ollama inference time - the better your computer, the faster this will be.
-- Your chat history and settings are saved to two files: voice_assistant_history.json, user_settings.json. These files can be found in the main project folder. You should delete these files or store them in a secure location - if you have privacy and security concerns.
+- The chat history and user settings are saved to two files: voice_assistant_history.json, user_settings.json. These files can be found in the main project folder. You should delete these files or store them in a secure location - if you have privacy and security concerns.
 - I've included detailed trouble-shooting info in the writeup for the original MyOfflineAi project. You can find it here:<br>
  https://github.com/vbookshelf/myOfflineAi-PrivacyFirst
 
