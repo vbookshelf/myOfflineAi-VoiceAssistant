@@ -7,7 +7,7 @@
 YouTube Video Demo<br>
 https://www.youtube.com/watch?v=rFboArOTe20<br>
 The demo is in real time.<br>
-Hardware: M4 Macbook Air, 16GB
+Hardware: M4 Macbook Air, 16GB RAM, 512GB Storage
 
 <br>
 
