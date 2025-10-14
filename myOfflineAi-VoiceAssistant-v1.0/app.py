@@ -36,11 +36,11 @@ DEFAULT_OLLAMA_MODEL = "gemma3:4b"
 
 # LLM Parameters
 DEFAULT_NUM_CTX = 16000
-DEFAULT_TEMPERATURE = 1.0
-DEFAULT_TOP_K = 60
+DEFAULT_TEMPERATURE = 0.7
 DEFAULT_TOP_P = 0.95
-DEFAULT_FREQUENCY_PENALTY = 1.0
-DEFAULT_REPEAT_PENALTY = 1.0
+DEFAULT_TOP_K = 50 # Not necessary to set when using top_p
+DEFAULT_FREQUENCY_PENALTY = 0
+DEFAULT_REPEAT_PENALTY = 0
 
 DEFAULT_SYSTEM_MESSAGE = "You are emulating Samantha from the movie 'Her.' Your responses are being converted into audio by a TTS system.  Focus on creating responses that sound great when read aloud. Keep your sentences clear and prioritize natural-sounding language.  Do not use emojis. Do not use markdown symbols: #, *. The user has the option to either type in messages or to use voice input. When using voice input an STT system converts the user's voice into text. There may be errors in the voice to text conversion. When that happens the messages you receive may not make sense."
 
