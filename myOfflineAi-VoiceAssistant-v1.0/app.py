@@ -1505,33 +1505,38 @@ HTML_TEMPLATE = """
         }
     }
 
-    async function handleAiResponse(data, thinkingIndicator) {
-        thinkingIndicator.remove();
-        ui.chatView.classList.remove('mic-active-shadow');
-        const aiMessage = { role: 'assistant', content: data.responseText };
-        addMessage(aiMessage);
-        conversationHistory.push(aiMessage);
-        
-        await saveOrUpdateCurrentChat();
-        
-        if (data.warning) setTimeout(() => alert(data.warning), 500);
+    
+	async function handleAiResponse(data, thinkingIndicator) {
+    thinkingIndicator.remove();
+    ui.chatView.classList.remove('mic-active-shadow');
+    const aiMessage = {
+        role: 'assistant',
+        content: data.responseText
+    };
+    addMessage(aiMessage);
+    conversationHistory.push(aiMessage);
 
-        if (ui.ttsEnabledSelector.value === 'On' && data.audioData) {
-            isAiSpeaking = true;
-            ui.micBtn.classList.add('hidden');
-            ui.stopAudioBtn.classList.remove('hidden');
-            ui.audioPlayer.src = `data:audio/wav;base64,${data.audioData}`;
-            const playPromise = ui.audioPlayer.play();
-            if (playPromise !== undefined) {
-                playPromise.catch(error => {
-                    console.error("Audio playback failed:", error);
-                    onAiSpeechEnd();
-                });
-            }
-        } else {
-            onAiSpeechEnd();
+    await saveOrUpdateCurrentChat();
+
+    if (data.warning) setTimeout(() => alert(data.warning), 500);
+
+    if (ui.ttsEnabledSelector.value === 'On' && data.audioData) {
+        isAiSpeaking = true;
+        ui.micBtn.classList.add('hidden');
+        ui.stopAudioBtn.classList.remove('hidden');
+        ui.audioPlayer.src = `data:audio/wav;base64,${data.audioData}`;
+        const playPromise = ui.audioPlayer.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(error => {
+                console.error("Audio playback failed:", error);
+                onAiSpeechEnd();
+            });
         }
+    } else {
+        onAiSpeechEnd();
     }
+}
+	
 
     function stopAudioPlayback() {
         ui.audioPlayer.pause();
