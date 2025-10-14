@@ -238,7 +238,7 @@ https://www.youtube.com/watch?v=tl1wvZXlj0I
 
 <br>
 
-## App Family - Offline-First, Privacy-First
+## App Family - Offline-First, Privacy-First, Transparent
 
 - myOfflineAi-PrivacyFirst<br>(Maximum security. No chat history is saved.)<br>
   https://github.com/vbookshelf/myOfflineAi-PrivacyFirst<br>
