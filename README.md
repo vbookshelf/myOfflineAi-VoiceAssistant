@@ -29,7 +29,7 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 
 The innovations are not in the development of new technologies, but in the creative use of existing ones.
 
-- Single-file architecture (easy to audit the code and to customize the app)
+- Single-file architecture (Easy to use Ai to audit the code and to customize the app)
 - Double-click to run (More accessible to non-programmers)
 - Sentence-by-sentence TTS via WebSockets (Speeds up audio response)
 
