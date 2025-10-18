@@ -1660,9 +1660,11 @@ def handle_chat_message(data):
     try:
         response_stream = ollama.chat(model=model, messages=messages, stream=True, options=options)
         full_response, sentence_buffer = "", ""
+        final_chunk = None
         for chunk in response_stream:
             if session.get('stop_generation'): break
             if chunk.get("done"):
+                final_chunk = chunk
                 if sentence_buffer.strip() and tts_enabled == "On": process_sentence(sentence_buffer, data)
                 break
             token = chunk['message']['content']
@@ -1676,6 +1678,18 @@ def handle_chat_message(data):
             elif len(complete_sentences) == 1 and sentence_buffer.endswith(('.', '!', '?')):
                 if tts_enabled == "On": process_sentence(complete_sentences[0], data)
                 sentence_buffer = ""
+        
+        if final_chunk:
+            prompt_tokens = final_chunk.get('prompt_eval_count', 0)
+            completion_tokens = final_chunk.get('eval_count', 0)
+            total_tokens = prompt_tokens + completion_tokens
+			
+            print()
+            print(f"[STATS] Prompt Tokens:     {prompt_tokens}")
+            print(f"[STATS] Completion Tokens: {completion_tokens}")
+            print(f"[STATS] Total Tokens:      {total_tokens}")
+            print()
+
         socketio.emit('chat_end', {'final_message': full_response}, room=request.sid)
     except Exception as e:
         print(f"[ERROR] Chat handler error: {e}", file=sys.stderr)
