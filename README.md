@@ -37,7 +37,7 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 
 <br>
 
-## Version 2: Reduced Audio Delay - Used WebSockets to Implement Sentence-by-Sentence TTS (Coming soon)
+## Version 2: Reduced Audio Delay - Used WebSockets to Implement Sentence-by-Sentence TTS
 
 <br>
 
@@ -120,8 +120,8 @@ scoop install ffmpeg
 
 1. On GitHub click on "<> Code". The select "Download Zip"
 2. Download the project folder and unzip it
-3. Inside you will find a folder named: myOfflineAi-VoiceAssistant-v1.1
-4. Place myOfflineAi-VoiceAssistant-v1.1 on your desktop.
+3. Inside you will find a folder named: myOfflineAi-VoiceAssistant-v2.0
+4. Place myOfflineAi-VoiceAssistant-v2.0 on your desktop.
 
 
 5. Initial Setup
@@ -142,16 +142,16 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 4. Type 'cd ' in the terminal (with a space after cd)
 5. Drag the folder into the Terminal window. A file path will appear.
 6. Press Enter
-If you get an error, then type in these commands in the terminal to manually cd into myOfflineAi-VoiceAssistant-v1.1 folder:
+If you get an error, then type in these commands in the terminal to manually cd into myOfflineAi-VoiceAssistant-v2.0 folder:
 cd Desktop
-cd myOfflineAi-VoiceAssistant-v1.1
+cd myOfflineAi-VoiceAssistant-v2.0
 
 7. Paste this command into the terminal:
 
 cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
 
 8. Press Enter
-9. Open the myOfflineAi-VoiceAssistant-v1.1 folder
+9. Open the myOfflineAi-VoiceAssistant-v2.0 folder
 10. Double-click: start-mac-app.command
 
 
@@ -171,7 +171,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 6. Wait for "uv installed successfully" or similar message
 
 7. Close the window and open a new one for the changes to take effect
-8. Navigate to the myOfflineAi-VoiceAssistant-v1.1 folder that's on your desktop
+8. Navigate to the myOfflineAi-VoiceAssistant-v2.0 folder that's on your desktop
 9. Double-click: start-windows-app.bat
 
 If Windows shows a security warning:
@@ -277,6 +277,10 @@ https://www.youtube.com/watch?v=tl1wvZXlj0I
 <br>
 
 ## Revision History
+
+Version 2.0<br>
+18-Oct-2025<br>
+Used WebSockets to implement sentence-by-sentence TTS to reduce audio delay.
 
 Version 1.1<br>
 15-Oct-2025<br>
