@@ -37,7 +37,7 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 
 <br>
 
-## Version 2: Use WebSockets to Implement Sentence-by-Sentence TTS (Coming soon)
+## Version 2: Reduced Audio Delay - Used WebSockets to Implement Sentence-by-Sentence TTS (Coming soon)
 
 <br>
 
