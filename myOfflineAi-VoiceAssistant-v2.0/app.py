@@ -217,7 +217,7 @@ HTML_TEMPLATE = """
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voice Assistant (Streaming)</title>
 	<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='icon.png') }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+	<script src="{{ url_for('static', filename='socket.io.min.js') }}"></script>
     <style>
         :root {
             --slate-50: #f8fafc;
