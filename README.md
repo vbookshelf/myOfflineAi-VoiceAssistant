@@ -78,8 +78,8 @@ Notes:<br>
 - After setup, you only need to double-click a file to launch the app.
 
 System Requirements:
-- Computer: Apple Silicon Mac (M-series) with minimum 16GB RAM - or equivalent
-- Free disk space: approx. 10 GB
+- Computer: Apple Silicon Mac (M-series) with minimum 8GB RAM - or equivalent
+- Free disk space: approx. 7 GB
 
 <br>
 
