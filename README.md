@@ -43,13 +43,13 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 
 In Version 1, the code waits for the model’s entire response to be generated before creating and playing the full audio. This causes a “thinking” delay, especially when the model’s response is long.
 
-To solve this, Version 2 modifies the backend to stream the model’s response token-by-token to the front end using WebSockets. As text arrives, it is displayed immediately. This lets us detect sentence boundaries (like periods or question marks). Once a full sentence is received, that sentence is sent to the Kokoro TTS engine, converted to audio, and played right away. The result is that the voice starts speaking much sooner, making the conversation feel more fluid and natural.
+To solve this, Version 2 modifies the backend to stream the model’s response token-by-token to the front end using WebSockets. As text arrives, it is displayed immediately. This process allows sentence boundaries (like periods or question marks) to be detected. Once a full sentence is received, that sentence is sent to the Kokoro TTS engine, converted to audio, and played right away. The result is that the voice starts speaking much sooner, making the conversation feel more fluid and natural.
 
 In a Flask application running locally, your browser is the client and Flask is the server. The browser (client) sends requests — for example, when you open a page or click a button — and the Flask app (server) receives those requests, processes them, and sends back a response.
 
 WebSockets provide a way for the browser and the server to keep an open line of communication. With regular web communication (HTTP), it’s like making a phone call every time you want to say something — you call, talk, hang up, and then call again. With WebSockets, it’s like keeping the call open the whole time, so both sides can talk and listen whenever they want without hanging up. This makes real-time features like live chat or streaming much faster and smoother.
 
-To make this work, we use Flask-SocketIO, a library that adds WebSocket support to Flask applications.
+To make this work, the app uses Flask-SocketIO, a library that adds WebSocket support to Flask applications.
 
 
 <br>
