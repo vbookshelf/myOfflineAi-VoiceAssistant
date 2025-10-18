@@ -27,11 +27,11 @@ This is a privacy-first desktop Ai voice assistant designed to provide transpare
 
 ### Key innovations
 
+The innovations are not in the development of new technologies, but in the creative use of existing ones.
+
 - Single-file architecture (easy to audit the code and to customize the app)
 - Double-click to run (More accessible to non-programmers)
 - Websockets used offline (Speeds up audio response)
-
-The innovations are not in the development of new technologies, but in the creative use of existing ones.
 
 <br>
 
