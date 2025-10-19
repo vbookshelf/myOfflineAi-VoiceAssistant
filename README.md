@@ -57,7 +57,7 @@ In a Flask application running locally, your browser is the client and Flask is 
 
 WebSockets provide a way for the browser and the server to keep an open line of communication. With regular web communication (HTTP), it’s like making a phone call every time you want to say something — you call, talk, hang up, and then call again. With WebSockets, it’s like keeping the call open the whole time, so both sides can talk and listen whenever they want without hanging up. This makes real-time features like live chat or streaming much faster and smoother.
 
-To make this work, the app uses Flask-SocketIO, a library that adds WebSocket support to Flask applications.
+To make this work, this app uses Flask-SocketIO, a library that adds WebSocket support to Flask applications.
 
 
 <br>
