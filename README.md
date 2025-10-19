@@ -45,7 +45,7 @@ The innovations are not in the development of new technologies, but in the creat
 
 <br>
 
-## Version 2: Reduced Audio Delay - Used WebSockets to Implement Sentence-by-Sentence TTS
+## Version 2: Faster Audio Response - Used WebSockets to Implement Sentence-by-Sentence TTS
 
 <br>
 
