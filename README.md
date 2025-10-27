@@ -288,6 +288,11 @@ https://www.youtube.com/watch?v=tl1wvZXlj0I
 
 ## Revision History
 
+Version 2.1<br>
+27-Oct-2025<br>
+Fixed error where Qwen models where not working.<br>
+Removed model parameters that are not supported by all models.
+
 Version 2.0<br>
 18-Oct-2025<br>
 Used WebSockets to implement sentence-by-sentence TTS to reduce audio delay.
