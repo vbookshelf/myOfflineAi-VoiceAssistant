@@ -35,7 +35,7 @@ from urllib.parse import urlparse
 DEFAULT_OLLAMA_MODEL = "gemma3:4b"
 
 # LLM Parameters
-DEFAULT_NUM_CTX = 16000
+DEFAULT_NUM_CTX = 8000
 DEFAULT_TEMPERATURE = 1.0
 DEFAULT_TOP_P = 0.95
 
