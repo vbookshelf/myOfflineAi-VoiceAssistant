@@ -291,7 +291,7 @@ https://www.youtube.com/watch?v=tl1wvZXlj0I
 
 Version 2.1<br>
 27-Oct-2025<br>
-Fixed error where Qwen models where not working.<br>
+Fixed error where Qwen models were not working.<br>
 Removed model parameters that are not supported by all models.
 
 Version 2.0<br>
